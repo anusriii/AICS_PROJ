@@ -283,3 +283,5 @@ Designed for a 4-member final-year B.Tech engineering team:
 - **Member 2 (Backend, Database & Security)**: FastAPI routing, SQLAlchemy models, SQLite/Postgres persistence, JWT security.
 - **Member 3 (AI & Adaptive Intelligence)**: Resume/JD extraction pipeline, Skill matching engine, Dynamic difficulty adaptation, Follow-up logic.
 - **Member 4 (Evaluation, Analytics & Coding Lab)**: Multi-factor rubric evaluator, AST code complexity detector, 7-day curriculum generator, Longitudinal analytics.
+#   A I C S _ P R O J  
+ 
