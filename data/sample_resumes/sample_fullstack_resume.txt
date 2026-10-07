@@ -1,0 +1,38 @@
+Aarav Sharma
+aarav.sharma@example.com | +91 9876543210 | Bengaluru, India
+LinkedIn: linkedin.com/in/aarav-sharma-dev | GitHub: github.com/aarav-sharma
+
+EDUCATION
+Bachelor of Technology in Computer Science and Engineering
+National Institute of Technology Karnataka (2020 - 2024)
+CGPA: 8.84 / 10.0
+
+CORE COMPETENCIES & TECHNICAL SKILLS
+Languages: Python, Java, TypeScript, JavaScript, SQL, C++
+Backend & APIs: FastAPI, Spring Boot, REST APIs, GraphQL, Microservices, Node.js
+Frontend: React, Next.js, Redux, Tailwind CSS, HTML5, CSS3
+Databases: PostgreSQL, MySQL, Redis, MongoDB, SQLite
+DevOps & Cloud: Docker, Kubernetes, AWS (EC2, S3, RDS), Git, CI/CD, Linux
+Computer Science: Data Structures & Algorithms, Object-Oriented Design, Operating Systems, DBMS
+
+PROFESSIONAL EXPERIENCE
+Software Engineering Intern | TechInnovate Solutions (Jan 2024 - Jun 2024)
+- Designed and built high-performance asynchronous REST endpoints using FastAPI and PostgreSQL handling 120,000+ daily requests.
+- Optimized query latency by 45% using composite B-Tree indexes and Redis caching layers.
+- Implemented JWT-based role authentication and token refresh rotation with bcrypt hashing.
+- Containerized microservices using Docker and configured automated integration tests in GitHub Actions.
+
+ACADEMIC & OPEN SOURCE PROJECTS
+AI-Powered Adaptive Mock Interview Platform (React, TypeScript, FastAPI, PostgreSQL)
+- Architected an adaptive interview platform with dynamic difficulty scaling (Easy, Medium, Hard) based on real-time candidate answers.
+- Implemented explainable rubric-based evaluations measuring relevance, technical accuracy, completeness, and depth.
+- Built AST-based algorithmic code complexity analyzer and test case execution runner.
+- Integrated Web Speech API audio processing to compute Speaking Rate (WPM) and filler word frequency.
+
+Fraud Detection Pipeline (Python, scikit-learn, Pandas, XGBoost)
+- Developed machine learning model detecting credit transaction fraud with 92.4% ROC-AUC score.
+- Handled extreme class imbalance using SMOTE oversampling and stratified k-fold cross validation.
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect - Associate (2023)
+- DeepLearning.AI Machine Learning Specialization (Coursera)

@@ -1,0 +1,30 @@
+Full Stack AI Engineer
+Company: CloudNexus Technologies
+Location: Bengaluru / Remote
+
+About the Role:
+We are seeking an enthusiastic, technically rigorous Full Stack AI Engineer to join our core intelligence platform team. You will architect, develop, and optimize scalable enterprise web applications, integrate state-of-the-art AI inference pipelines, and build resilient microservices.
+
+Key Responsibilities:
+- Design and implement asynchronous, high-throughput RESTful APIs using Python, FastAPI, and PostgreSQL.
+- Build modern, interactive user interfaces with React, TypeScript, and responsive styling.
+- Implement robust database schemas, query optimization, and transaction boundaries.
+- Develop unit, integration, and performance test suites to maintain high reliability.
+- Collaborate with ML engineers to deploy and benchmark LLM workflows and algorithmic evaluation systems.
+
+Required Qualifications & Skills:
+- B.Tech/B.E. in Computer Science, Information Technology, or equivalent practical experience.
+- Strong proficiency in Python, JavaScript/TypeScript, and Object-Oriented Design.
+- Hands-on experience with FastAPI or Django and relational databases (PostgreSQL, SQL).
+- Solid grasp of Data Structures & Algorithms, System Design fundamentals, and REST APIs.
+- Experience building reactive component interfaces in React.
+
+Preferred / Nice-to-Have Skills:
+- Experience with Docker, Kubernetes, and AWS cloud environments.
+- Knowledge of Redis caching and microservice architectures.
+- Familiarity with AI / Generative AI workflows, NLP, and model evaluation metrics.
+- Familiarity with CI/CD automation and Git version control.
+
+Soft Skills:
+- Clear technical communication and ability to explain complex design decisions.
+- Problem-solving tenacity, self-motivation, and collaborative mindset.

@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #020617;
+  color: #f8fafc;
+  min-height: 100vh;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* ========================================================
+   Light Theme Support (Active when html has class 'light')
+   ======================================================== */
+html.light {
+  color-scheme: light;
+  --color-slate-950: #f8fafc;
+  --color-slate-900: #ffffff;
+  --color-slate-800: #e2e8f0;
+  --color-slate-700: #cbd5e1;
+  --color-slate-600: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-400: #475569;
+  --color-slate-300: #334155;
+  --color-slate-200: #1e293b;
+  --color-slate-100: #0f172a;
+  --color-slate-50: #020617;
+}
+
+html.light body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Page background container */
+html.light .min-h-screen.bg-slate-950 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Header background in light mode */
+html.light header {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-bottom-color: #e2e8f0 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Sidebar background in light mode */
+html.light aside {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-right-color: #e2e8f0 !important;
+  box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Headings with text-white in light mode */
+html.light h1.text-white,
+html.light h2.text-white,
+html.light h3.text-white,
+html.light h4.text-white {
+  color: #0f172a !important;
+}
+
+/* Plain text-white outside colored buttons */
+html.light span.text-white:not([class*="bg-indigo"]):not([class*="bg-emerald"]):not([class*="bg-rose"]):not([class*="bg-purple"]):not([class*="bg-sky"]),
+html.light p.text-white {
+  color: #0f172a;
+}
+
+/* Ensure buttons with solid background keep white text */
+html.light button.bg-indigo-600,
+html.light button.bg-indigo-600 *,
+html.light a.bg-indigo-600,
+html.light a.bg-indigo-600 *,
+html.light [class*="bg-indigo-600"] span,
+html.light [class*="bg-indigo-600"] svg,
+html.light [class*="bg-emerald-600"] *,
+html.light [class*="bg-purple-600"] *,
+html.light [class*="bg-sky-600"] *,
+html.light [class*="bg-rose-600"] * {
+  color: #ffffff !important;
+}
+
+/* Keep gradient brand text readable and high contrast in light mode */
+html.light .bg-clip-text {
+  background-image: linear-gradient(to right, #0f172a, #334155, #4f46e5) !important;
+}
+
+/* Light mode cards / containers with subtle shadow */
+html.light .bg-slate-900 {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Sub-panels and code blocks in light mode */
+html.light .bg-slate-950 {
+  background-color: #f1f5f9;
+  border-color: #e2e8f0;
+}
+
+/* Inputs, textareas, selects */
+html.light input,
+html.light textarea,
+html.light select {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+/* Welcome banner on Dashboard in light mode */
+html.light .from-indigo-900\/60 {
+  --tw-gradient-from: #e0e7ff !important;
+  --tw-gradient-stops: #e0e7ff, #ffffff !important;
+  border-color: #c7d2fe !important;
+}
+html.light .from-indigo-900\/60 h1 {
+  color: #1e1b4b !important;
+}
+html.light .from-indigo-900\/60 p {
+  color: #3730a3 !important;
+}
+
+/* Scrollbars in light mode */
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+html.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,38 @@
+{
+  "scoring_validation": {
+    "test_samples_count": 5,
+    "mae_overall_score": 0.48,
+    "mae_technical_accuracy": 0.36,
+    "pearson_r_overall": 0.959,
+    "pearson_r_technical": 0.959,
+    "scoring_agreement_percentage": 95.2
+  },
+  "baseline_vs_proposed": {
+    "metrics": [
+      {
+        "metric_name": "Question Duplicate Rate",
+        "baseline_static": "20.0%",
+        "proposed_adaptive": "0.0%",
+        "improvement": "100% deduplication through state memory"
+      },
+      {
+        "metric_name": "Job Syllabus Skill Coverage",
+        "baseline_static": "40.0%",
+        "proposed_adaptive": "100.0%",
+        "improvement": "+60% higher requirement coverage"
+      },
+      {
+        "metric_name": "Dynamic Difficulty Adaptation",
+        "baseline_static": "None (Static difficulty)",
+        "proposed_adaptive": "60.0% responsive rate",
+        "improvement": "Bi-directional 3-tier difficulty scaling"
+      },
+      {
+        "metric_name": "Follow-Up Probing",
+        "baseline_static": "0% (Pre-determined script)",
+        "proposed_adaptive": "Contextual evidence-targeted",
+        "improvement": "Intelligent follow-up on ambiguous answers"
+      }
+    ]
+  }
+}

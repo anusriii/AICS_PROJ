@@ -1,0 +1,84 @@
+{
+  "benchmark_candidate_answers": [
+    {
+      "id": 1,
+      "question": "Explain the difference between list and tuple in Python, including mutability and memory overhead.",
+      "topic": "Python",
+      "expected_points": ["Mutability difference", "Memory overhead", "Hashability / Dict keys"],
+      "candidate_answer": "Lists are mutable sequences in Python, meaning elements can be appended, inserted, or modified in-place, which requires over-allocating memory for growth. Tuples are immutable and cannot be modified after creation, which allows Python to allocate exact memory blocks. Because of immutability, tuples of hashable items can be used as dictionary keys.",
+      "human_evaluation": {
+        "relevance": 9.5,
+        "technical_accuracy": 9.0,
+        "completeness": 8.5,
+        "depth": 8.5,
+        "clarity": 9.0,
+        "example_usage": 7.0,
+        "overall_score": 8.7
+      }
+    },
+    {
+      "id": 2,
+      "question": "Explain database indexing with B-Trees. What is a composite index and why does column order matter?",
+      "topic": "Databases & SQL",
+      "expected_points": ["B-Tree search complexity O(log N)", "Leftmost prefix rule", "Write amplification overhead"],
+      "candidate_answer": "Indexes speed up search from O(n) to O(log n) using balanced tree structures. A composite index is defined across multiple columns. The column order is critical because queries must satisfy the leftmost prefix rule; if you query on the second column without the first, the B-Tree cannot perform an efficient index seek.",
+      "human_evaluation": {
+        "relevance": 9.0,
+        "technical_accuracy": 8.5,
+        "completeness": 8.0,
+        "depth": 8.0,
+        "clarity": 8.5,
+        "example_usage": 7.5,
+        "overall_score": 8.3
+      }
+    },
+    {
+      "id": 3,
+      "question": "What is polymorphism in Object-Oriented Programming and how is it implemented?",
+      "topic": "OOP",
+      "expected_points": ["Compile-time vs Runtime polymorphism", "Method overriding", "Method overloading"],
+      "candidate_answer": "Polymorphism means many forms. It allows objects to take multiple shapes in Java or Python.",
+      "human_evaluation": {
+        "relevance": 6.0,
+        "technical_accuracy": 5.5,
+        "completeness": 4.0,
+        "depth": 3.5,
+        "clarity": 6.0,
+        "example_usage": 2.0,
+        "overall_score": 4.8
+      }
+    },
+    {
+      "id": 4,
+      "question": "How does React virtual DOM diffing work and what role do keys play in lists?",
+      "topic": "React",
+      "expected_points": ["In-memory representation", "O(n) heuristic diffing", "Keys preserve identity across renders"],
+      "candidate_answer": "React keeps a virtual DOM tree in memory. When state updates, it generates a new tree and runs a diffing heuristic in O(n) time rather than O(n^3). Keys give stable identities to list elements so React knows which items moved, inserted, or deleted rather than re-rendering the whole array.",
+      "human_evaluation": {
+        "relevance": 9.5,
+        "technical_accuracy": 9.0,
+        "completeness": 8.5,
+        "depth": 8.5,
+        "clarity": 9.0,
+        "example_usage": 8.0,
+        "overall_score": 8.8
+      }
+    },
+    {
+      "id": 5,
+      "question": "Explain ACID properties and why isolation levels matter in transactions.",
+      "topic": "DBMS",
+      "expected_points": ["Atomicity, Consistency, Isolation, Durability", "Dirty reads, Non-repeatable reads", "Serializable isolation"],
+      "candidate_answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability. Isolation prevents concurrent transactions from seeing partial writes, mitigating phenomena like dirty reads and phantom reads.",
+      "human_evaluation": {
+        "relevance": 8.5,
+        "technical_accuracy": 8.0,
+        "completeness": 7.0,
+        "depth": 7.0,
+        "clarity": 8.0,
+        "example_usage": 6.0,
+        "overall_score": 7.6
+      }
+    }
+  ]
+}
